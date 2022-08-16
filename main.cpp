@@ -61,7 +61,7 @@ int main()
                     if(onFS.is_open())
                     {
                         cout << "\n= Input data in to file =" << endl;
-                        onFS << "There is no need to light a night-light On a light night"
+                        onFS << "There is no need to light a night-light On a light night"                     // put this data into the file via onFS
                                 " like tonight;\nFor a night-light’s light’s a slight light "
                                 "When the moonlight’s white and bright." << endl;
 
@@ -82,7 +82,7 @@ int main()
                 cout << "\n[ No file to open and write into ]" << endl;
             } else {
                 cout << "\n= Open file =\n" << endl;
-                inFS.open(title);
+                inFS.open(title);                                                          // access/read file via inFS
                 if (inFS.is_open())
                 {
                     string line;
