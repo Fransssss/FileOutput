@@ -24,7 +24,7 @@ int main()
     cout << "e. Exit" << endl;
     cout << "choice: ";
     ofstream onFS;                             // output file stream
-    ifstream inFS;
+    ifstream inFS;                             // input file stream
     string choice;
     string title;
     cin >> choice;
